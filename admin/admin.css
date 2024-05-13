@@ -1,0 +1,159 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+form {
+    /* border-radius: 30px; */
+    /* border: #000 solid 1px; */
+    margin: 10px 50px;
+    padding: 20px;
+    text-align: center;
+}
+
+label {
+    font-size: 20px;
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+textarea {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+select {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+input[type="file"] {
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    background-color: #ff7831;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #313131;
+}
+
+.error-message {
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* admin.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+
+table {
+    padding: 30px;
+    margin: 20px auto;
+    border-radius: 20px;
+    border: 0.5px solid #cccccc;
+    width: 80%;
+}
+
+th, td {
+    font-size: 15px;
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+
+th {
+    text-align: center;
+    background-color: #f1f1f1;
+    font-weight: bold;
+}
+
+button {
+    padding: 8px 12px;
+    background-color: #d62121;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Responsive Styles */
+
+/* Max width: 1200px */
+@media (max-width: 1200px) {
+    .container {
+        max-width: 500px;
+    }
+}
+
+/* Max width: 991px */
+@media (max-width: 991px) {
+    .container {
+        max-width: 400px;
+    }
+}
+
+/* Max width: 768px */
+@media (max-width: 768px) {
+    .container {
+        max-width: 300px;
+    }
+
+    form input[type="text"],
+    form input[type="number"],
+    form textarea,
+    form select {
+        width: 100%;
+    }
+}
+
+/* Max width: 450px */
+@media (max-width: 450px) {
+    form {
+        margin: 10px 20px;
+    }
+}

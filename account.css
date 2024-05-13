@@ -1,0 +1,71 @@
+/* Styles généraux */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Styles pour la section "header" */
+  
+  
+  /* Styles pour la section "content" */
+  .content {
+    margin-top: 20px;
+  }
+  
+  .title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button[type="submit"] {
+    margin: 20px;
+    background-color: #f7831f;
+    color: #fff;
+    transition: all .5s;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    /* border: #ff7831 solid 2px; */
+    font-weight: 800;
+  }
+  button:hover{
+    background-color: #222;
+    color: #fff;
+    
+  }
+  
+  /* Styles pour la section "footer" */
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
