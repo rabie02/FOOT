@@ -306,7 +306,7 @@ session_start();
                 <h3>Contact info</h3>
                 <a href="#"> <i class="fas fa-phone"></i> +212 65549-5342 </a>
                 <a href="#"> <i class="fas fa-phone"></i> +212 65549-5342 </a>
-                <a href="#"> <i class="fas fa-envelope"></i> Ahmedad@gmail.com </a>
+                <a href="#"> <i class="fas fa-envelope"></i> Rabieoutkidout@gmail.com </a>
                 <a href="#"> <i class="fas fa-map"></i> Marrakech, Morocco, 102030 </a>
                
             </div>

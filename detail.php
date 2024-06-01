@@ -1,5 +1,7 @@
 <?php
-session_start();
+if (session_status() == PHP_SESSION_NONE) {
+    session_start();
+}
 
 // Vérifier si la session est active
 if (!isset($_SESSION['firstname'])) {

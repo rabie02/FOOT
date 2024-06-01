@@ -1,4 +1,6 @@
-<?php session_start(); ?>
+<?php if (session_status() == PHP_SESSION_NONE) {
+    session_start();
+} ?>
 
 <section class="header">
     <a href="index.php" class="logo">Urbain store</a>

@@ -1,5 +1,7 @@
 <?php
-session_start();
+if (session_status() == PHP_SESSION_NONE) {
+    session_start();
+}
 
 // Vérifier si la session est active
 if (!isset($_SESSION['firstname'])) {
@@ -208,7 +210,7 @@ $historiqueReservations = $stmtReservations->fetchAll(PDO::FETCH_ASSOC);
         <h3>Contact info</h3>
         <a href="#"> <i class="fas fa-phone"></i> +212 65549-5342 </a>
         <a href="#"> <i class="fas fa-phone"></i> +212 65549-5342 </a>
-        <a href="#"> <i class="fas fa-envelope"></i> Ahmedad@gmail.com </a>
+        <a href="#"> <i class="fas fa-envelope"></i> RabieOutkidout@gmail.com </a>
         <a href="#"> <i class="fas fa-map"></i> Marrakech, Morocco, 102030 </a>
        
     </div>

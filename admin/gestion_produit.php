@@ -1,5 +1,7 @@
 <?php
-session_start();
+if (session_status() == PHP_SESSION_NONE) {
+    session_start();
+}
 
 // Vérifier si l'administrateur est connecté
 if (!isset($_SESSION['admin'])) {
